@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this template
+-->
+<html>
+    <head>
+        <style type="text/css">
+            body{
+                background: linear-gradient(35deg,crimson,sandybrown,skyblue,indianred,plum);
+            }   
+            #boton1{
+                background: linear-gradient(50deg,skyblue,plum,blue);
+            }
+             #boton2{
+                background: linear-gradient(25deg,purple,skyblue,grey);
+            }
+             #numero{
+                background: linear-gradient(35deg,gray,skyblue,grey);
+            }
+            table{
+                margin: 20px;
+                border-collapse: collapse;
+            }
+            table,th,td{
+                border: 2px solid purple    ;
+            }
+            th,td{
+                padding: 10px;
+                text-align: center;
+            }
+        </style>
+        <script type="text/javascript" src="jquery.js"></script>
+        <script type="text/javascript" src="archivo.js"></script>
+        <title>TABLA DE MULTIPLICAR</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <h1>  TABLAS DE MULTIPLICAR DEL 1 AL 12</h1><br>
+        <label for="numero"> Introduzca un numero para generar las tablas: </label><br><br>
+        <input type="number" id="numero" >
+        <input type="button" id="boton1" value="Generar">
+        <input type="button" id="boton2" value="Borrar"><br><br>
+        <table id="multiplication-table">
+        <thead>
+            <tr>
+                <th>Tabla del 1</th>
+                <th>Tabla del 2</th>
+                <th>Tabla del 3</th>
+                <th>Tabla del 4</th>
+                <th>Tabla del 5</th>
+                <th>Tabla del 6</th>
+                <th>Tabla del 7</th>
+                <th>Tabla del 8</th>
+                <th>Tabla del 9</th>
+                <th>Tabla del 10</th>
+                <th>Tabla del 11</th>
+                <th>Tabla del 12</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Las filas se agregarán aquí con jQuery -->
+        </tbody>
+    </table>
+    </body>
+</html>
